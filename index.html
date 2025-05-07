@@ -1,27 +1,150 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <!-- DO NOT CHANGE CODE WITHIN THE HEAD ELEMENT -->
-  <!-- UNLESS YOU KNOW WHAT YOU"RE DOING-->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <!-- add fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- local style -->
-    <link rel="stylesheet" href="styles/global.css" />
-  </head>
-  <body>
-    <!-- Header Area -->
-    <header></header>
-    <!-- Main Area -->
-    <main>
-      <h1>My Amazing Portfolio</h1>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaliyah D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        blockquote {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #ccc;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Aaliyah Dube Portfolio</h1>
+    <img src="data:image/jpeg;base64,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" alt="Aaliyah Dube Profile Picture" class="profile-pic">
+
+    <div class="contact-info">
+       <p>📞 Phone: [+27 63 134 4290]</p>
+        <p>📧 Email: [aaliyahdube28@gmail.com ]</p>
+        <p>🌍 LinkedIn: [https://www.linkedin.com/in/aaliyah-dube ]</p>
+        <p>📍 Location: [Johannesburg, South Africa]</p>
+        
+    </div>
+
+    <div class="section">
+        <h2>Profile</h2>
+        <p>Motivated and purpose-driven aspiring Software Developer with a strong passion for technology, gender rights, education, and youth empowerment. Currently expanding my technical skills through the Women Techsters Initiative Bootcamp while actively contributing to meaningful causes. As a Youth Chatbot Advisory Board Member, Mentor and Mentee Coordinator, and Community Lead, I am deeply committed to using technology and leadership to create positive social impact. I thrive in collaborative environments, value continuous learning, and aim to build a career at the intersection of tech and social good.</p>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        <h3>Youth Chatbot Advisory Board Member - Gender Rights In Tech</h3>
+        <p><em>[July 2024 - Present]</em></p>
+        <ul>
+            <li>Provide strategic input into the development of a gender-based violence support chatbot.</li>
+            <li>Advise on youth-centered communication approaches to make tech tools more accessible and empowering for young survivors.</li>
+            <li>Advocate for inclusive digital spaces that prioritize gender rights and youth engagement.</li>
+        </ul>
+
+        <h3>Mentor and Mentee Coordinator (Volunteer) - Girls 4 Girls</h3>
+        <p><em>[January 2025 - Present]</em></p>
+        <ul>
+            <li>Facilitate mentorship opportunities by matching mentees with experienced mentors.</li>
+            <li>Organize and coordinate workshops to support leadership development among young women.</li>
+            <li>Guide mentees in building confidence, setting career goals, and pursuing opportunities.</li>
+        </ul>
+
+        <h3>Community Lead - Girls In Books</h3>
+        <p><em>[April 2024 - Present]</em></p>
+        <ul>
+            <li>Lead a global community of young readers focused on empowering girls through literature.</li>
+            <li>Organize virtual book discussions, community events, and advocacy campaigns promoting girls’ education and leadership.</li>
+            <li>Create a safe and inspiring space for members to share ideas, support each other, and grow.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <h3>Software Development Bootcamp (In Progress) - Women Techsters Initiative</h3>
+        <p><em>[April 2025 – Present ]</em></p>
+        <p>Topics: Web Development, Front-end and Back-end Programming, UI/UX Design, Problem-Solving with Code, Agile Methodologies.</p>
+
+        <h3>[Athlone Girls High School]</h3>
+        <p><em>Graduation Year - 2024</em></p>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: HTML, CSS, JavaScript, Python (basic)</li>
+            <li>Web Development Fundamentals</li>
+            <li>User Experience (UX) Design</li>
+            <li>Project and Event Coordination</li>
+            <li>Mentorship and Leadership Training</li>
+            <li>Community Building and Engagement</li>
+            <li>Communication and Public Speaking</li>
+            <li>Gender Rights Advocacy</li>
+            <li>Problem-Solving and Critical Thinking</li>
+            <li>Team Collaboration and Remote Work Tools (Zoom, Slack, Microsoft Teams , Discord)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Introduction to Cybersecurity – [Google, Coursera]</li>
+            <li> Introduction to Internet Of Things – [Cisco]</li>
+            <li>UX Design Fundamentals – [IBM SkillsBuild]</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Volunteer Work</h2>
+        <ul>
+            <li>Facilitated youth mentorship programs focusing on leadership and empowerment.</li>
+            <li>Supported GBV (Gender-Based Violence) digital solutions for young survivors.</li>
+            <li>Organized community activities promoting literacy and girls' empowerment.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Interests</h2>
+        <ul>
+            <li>Technology for Social Good</li>
+            <li>Women in Tech Advocacy</li>
+            <li>Coding and Software Development</li>
+            <li>Youth Empowerment and Leadership</li>
+            <li>Reading, Book Clubs, and Storytelling</li>
+            <li>Social Innovation and Entrepreneurship</li>
+        </ul>
+    </div>
+<form action="https://formspree.io/f/yourFormID" method="POST">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+
+  <input type="submit" value="Sign Up">
+</form>
+
+</body>
 </html>
